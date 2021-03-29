@@ -1,0 +1,833 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		043076DB25ED544A001E4055 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043076DA25ED544A001E4055 /* AppDelegate.swift */; };
+		043076DD25ED544A001E4055 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043076DC25ED544A001E4055 /* SceneDelegate.swift */; };
+		043076DF25ED544A001E4055 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043076DE25ED544A001E4055 /* ViewController.swift */; };
+		043076E225ED544A001E4055 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043076E025ED544A001E4055 /* Main.storyboard */; };
+		043076E425ED544B001E4055 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043076E325ED544B001E4055 /* Assets.xcassets */; };
+		043076E725ED544B001E4055 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043076E525ED544B001E4055 /* LaunchScreen.storyboard */; };
+		043076F225ED544B001E4055 /* YandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043076F125ED544B001E4055 /* YandTests.swift */; };
+		043076FD25ED544B001E4055 /* YandUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043076FC25ED544B001E4055 /* YandUITests.swift */; };
+		044000A325EE778D00AA7923 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044000A225EE778D00AA7923 /* Models.swift */; };
+		044000AC25EE7A9C00AA7923 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044000AB25EE7A9C00AA7923 /* NetworkService.swift */; };
+		0440010525F8EDE000AA7923 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0440010425F8EDE000AA7923 /* TableViewCell.swift */; };
+		0440010E25FA55A400AA7923 /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0440010D25FA55A400AA7923 /* ChartViewController.swift */; };
+		04FF21112600E596009991FE /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FF21102600E596009991FE /* FavoriteViewController.swift */; };
+		04FF220E260424F9009991FE /* DataModel+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FF220C260424F9009991FE /* DataModel+CoreDataClass.swift */; };
+		04FF220F260424F9009991FE /* DataModel+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FF220D260424F9009991FE /* DataModel+CoreDataProperties.swift */; };
+		04FF222726042A38009991FE /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04FF21F526041FC9009991FE /* DataModel.xcdatamodeld */; };
+		04FF2249260B91D1009991FE /* TextInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FF2248260B91D1009991FE /* TextInfoViewController.swift */; };
+		26F5DFC8A6881807BAABB657 /* Pods_Yand_YandUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA7390A13A7183BF2169CB04 /* Pods_Yand_YandUITests.framework */; };
+		5AA46003EC05DB2AE07B6875 /* Pods_Yand.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA50DFF19CA5F436EC0DE35E /* Pods_Yand.framework */; };
+		CEECA78A77173B355094CB9F /* Pods_YandTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51CA9C063440BC2C93AA0936 /* Pods_YandTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		043076EE25ED544B001E4055 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 043076CF25ED544A001E4055 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 043076D625ED544A001E4055;
+			remoteInfo = Yand;
+		};
+		043076F925ED544B001E4055 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 043076CF25ED544A001E4055 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 043076D625ED544A001E4055;
+			remoteInfo = Yand;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		043076D725ED544A001E4055 /* Yand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yand.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		043076DA25ED544A001E4055 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		043076DC25ED544A001E4055 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		043076DE25ED544A001E4055 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		043076E125ED544A001E4055 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		043076E325ED544B001E4055 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		043076E625ED544B001E4055 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		043076E825ED544B001E4055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043076ED25ED544B001E4055 /* YandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YandTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		043076F125ED544B001E4055 /* YandTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YandTests.swift; sourceTree = "<group>"; };
+		043076F325ED544B001E4055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043076F825ED544B001E4055 /* YandUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YandUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		043076FC25ED544B001E4055 /* YandUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YandUITests.swift; sourceTree = "<group>"; };
+		043076FE25ED544B001E4055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		044000A225EE778D00AA7923 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		044000AB25EE7A9C00AA7923 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		0440010425F8EDE000AA7923 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		0440010D25FA55A400AA7923 /* ChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
+		04FF21102600E596009991FE /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		04FF21F626041FC9009991FE /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		04FF220C260424F9009991FE /* DataModel+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DataModel+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		04FF220D260424F9009991FE /* DataModel+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DataModel+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		04FF2248260B91D1009991FE /* TextInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInfoViewController.swift; sourceTree = "<group>"; };
+		22E1D3B8A0F60E6BC50FBCAF /* Pods-Yand.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yand.release.xcconfig"; path = "Target Support Files/Pods-Yand/Pods-Yand.release.xcconfig"; sourceTree = "<group>"; };
+		51CA9C063440BC2C93AA0936 /* Pods_YandTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YandTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BAAAF394DD7F208723ECF55 /* Pods-Yand-YandUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yand-YandUITests.release.xcconfig"; path = "Target Support Files/Pods-Yand-YandUITests/Pods-Yand-YandUITests.release.xcconfig"; sourceTree = "<group>"; };
+		87D5B86620C30B4C19E64A10 /* Pods-Yand.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yand.debug.xcconfig"; path = "Target Support Files/Pods-Yand/Pods-Yand.debug.xcconfig"; sourceTree = "<group>"; };
+		A7317FEAB67CC4D9A55407D0 /* Pods-Yand-YandUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yand-YandUITests.debug.xcconfig"; path = "Target Support Files/Pods-Yand-YandUITests/Pods-Yand-YandUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA7390A13A7183BF2169CB04 /* Pods_Yand_YandUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yand_YandUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C37044C84EA9981468F48ECD /* Pods-YandTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YandTests.release.xcconfig"; path = "Target Support Files/Pods-YandTests/Pods-YandTests.release.xcconfig"; sourceTree = "<group>"; };
+		CA50DFF19CA5F436EC0DE35E /* Pods_Yand.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yand.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFAFDF13AA0E19AF7DF2BB61 /* Pods-YandTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YandTests.debug.xcconfig"; path = "Target Support Files/Pods-YandTests/Pods-YandTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		043076D425ED544A001E4055 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AA46003EC05DB2AE07B6875 /* Pods_Yand.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043076EA25ED544B001E4055 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEECA78A77173B355094CB9F /* Pods_YandTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043076F525ED544B001E4055 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26F5DFC8A6881807BAABB657 /* Pods_Yand_YandUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		043076CE25ED544A001E4055 = {
+			isa = PBXGroup;
+			children = (
+				043076D925ED544A001E4055 /* Yand */,
+				043076F025ED544B001E4055 /* YandTests */,
+				043076FB25ED544B001E4055 /* YandUITests */,
+				043076D825ED544A001E4055 /* Products */,
+				E9E2C364558DC82285DBFE02 /* Pods */,
+				6E530DD51AE537A31363FE29 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		043076D825ED544A001E4055 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				043076D725ED544A001E4055 /* Yand.app */,
+				043076ED25ED544B001E4055 /* YandTests.xctest */,
+				043076F825ED544B001E4055 /* YandUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		043076D925ED544A001E4055 /* Yand */ = {
+			isa = PBXGroup;
+			children = (
+				04FF21BC26023B2C009991FE /* core data module */,
+				043076DA25ED544A001E4055 /* AppDelegate.swift */,
+				043076DC25ED544A001E4055 /* SceneDelegate.swift */,
+				0440010925F8F96D00AA7923 /* Controller */,
+				0440010425F8EDE000AA7923 /* TableViewCell.swift */,
+				044000B025EE7AA700AA7923 /* network */,
+				044000A725EE7A0500AA7923 /* model */,
+				043076E025ED544A001E4055 /* Main.storyboard */,
+				043076E325ED544B001E4055 /* Assets.xcassets */,
+				043076E525ED544B001E4055 /* LaunchScreen.storyboard */,
+				043076E825ED544B001E4055 /* Info.plist */,
+			);
+			path = Yand;
+			sourceTree = "<group>";
+		};
+		043076F025ED544B001E4055 /* YandTests */ = {
+			isa = PBXGroup;
+			children = (
+				043076F125ED544B001E4055 /* YandTests.swift */,
+				043076F325ED544B001E4055 /* Info.plist */,
+			);
+			path = YandTests;
+			sourceTree = "<group>";
+		};
+		043076FB25ED544B001E4055 /* YandUITests */ = {
+			isa = PBXGroup;
+			children = (
+				043076FC25ED544B001E4055 /* YandUITests.swift */,
+				043076FE25ED544B001E4055 /* Info.plist */,
+			);
+			path = YandUITests;
+			sourceTree = "<group>";
+		};
+		044000A725EE7A0500AA7923 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				044000A225EE778D00AA7923 /* Models.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		044000B025EE7AA700AA7923 /* network */ = {
+			isa = PBXGroup;
+			children = (
+				044000AB25EE7A9C00AA7923 /* NetworkService.swift */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		0440010925F8F96D00AA7923 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				043076DE25ED544A001E4055 /* ViewController.swift */,
+				04FF21102600E596009991FE /* FavoriteViewController.swift */,
+				0440010D25FA55A400AA7923 /* ChartViewController.swift */,
+				04FF2248260B91D1009991FE /* TextInfoViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04FF21BC26023B2C009991FE /* core data module */ = {
+			isa = PBXGroup;
+			children = (
+				04FF220C260424F9009991FE /* DataModel+CoreDataClass.swift */,
+				04FF220D260424F9009991FE /* DataModel+CoreDataProperties.swift */,
+				04FF21F526041FC9009991FE /* DataModel.xcdatamodeld */,
+			);
+			path = "core data module";
+			sourceTree = "<group>";
+		};
+		6E530DD51AE537A31363FE29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA50DFF19CA5F436EC0DE35E /* Pods_Yand.framework */,
+				BA7390A13A7183BF2169CB04 /* Pods_Yand_YandUITests.framework */,
+				51CA9C063440BC2C93AA0936 /* Pods_YandTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9E2C364558DC82285DBFE02 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				87D5B86620C30B4C19E64A10 /* Pods-Yand.debug.xcconfig */,
+				22E1D3B8A0F60E6BC50FBCAF /* Pods-Yand.release.xcconfig */,
+				A7317FEAB67CC4D9A55407D0 /* Pods-Yand-YandUITests.debug.xcconfig */,
+				7BAAAF394DD7F208723ECF55 /* Pods-Yand-YandUITests.release.xcconfig */,
+				DFAFDF13AA0E19AF7DF2BB61 /* Pods-YandTests.debug.xcconfig */,
+				C37044C84EA9981468F48ECD /* Pods-YandTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		043076D625ED544A001E4055 /* Yand */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0430770125ED544B001E4055 /* Build configuration list for PBXNativeTarget "Yand" */;
+			buildPhases = (
+				DEADB39958469AA12D2135D7 /* [CP] Check Pods Manifest.lock */,
+				043076D325ED544A001E4055 /* Sources */,
+				043076D425ED544A001E4055 /* Frameworks */,
+				043076D525ED544A001E4055 /* Resources */,
+				219267D48191A27BA0381D18 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Yand;
+			productName = Yand;
+			productReference = 043076D725ED544A001E4055 /* Yand.app */;
+			productType = "com.apple.product-type.application";
+		};
+		043076EC25ED544B001E4055 /* YandTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0430770425ED544B001E4055 /* Build configuration list for PBXNativeTarget "YandTests" */;
+			buildPhases = (
+				72BA07B267DC888CBDF50CF2 /* [CP] Check Pods Manifest.lock */,
+				043076E925ED544B001E4055 /* Sources */,
+				043076EA25ED544B001E4055 /* Frameworks */,
+				043076EB25ED544B001E4055 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				043076EF25ED544B001E4055 /* PBXTargetDependency */,
+			);
+			name = YandTests;
+			productName = YandTests;
+			productReference = 043076ED25ED544B001E4055 /* YandTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		043076F725ED544B001E4055 /* YandUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0430770725ED544B001E4055 /* Build configuration list for PBXNativeTarget "YandUITests" */;
+			buildPhases = (
+				335D6D03316868F25A6C97DE /* [CP] Check Pods Manifest.lock */,
+				043076F425ED544B001E4055 /* Sources */,
+				043076F525ED544B001E4055 /* Frameworks */,
+				043076F625ED544B001E4055 /* Resources */,
+				DAEC703D7F06AB1D0172A7A8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				043076FA25ED544B001E4055 /* PBXTargetDependency */,
+			);
+			name = YandUITests;
+			productName = YandUITests;
+			productReference = 043076F825ED544B001E4055 /* YandUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		043076CF25ED544A001E4055 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					043076D625ED544A001E4055 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					043076EC25ED544B001E4055 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 043076D625ED544A001E4055;
+					};
+					043076F725ED544B001E4055 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 043076D625ED544A001E4055;
+					};
+				};
+			};
+			buildConfigurationList = 043076D225ED544A001E4055 /* Build configuration list for PBXProject "Yand" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 043076CE25ED544A001E4055;
+			productRefGroup = 043076D825ED544A001E4055 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				043076D625ED544A001E4055 /* Yand */,
+				043076EC25ED544B001E4055 /* YandTests */,
+				043076F725ED544B001E4055 /* YandUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		043076D525ED544A001E4055 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043076E725ED544B001E4055 /* LaunchScreen.storyboard in Resources */,
+				043076E425ED544B001E4055 /* Assets.xcassets in Resources */,
+				043076E225ED544A001E4055 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043076EB25ED544B001E4055 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043076F625ED544B001E4055 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		219267D48191A27BA0381D18 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Yand/Pods-Yand-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Yand/Pods-Yand-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Yand/Pods-Yand-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		335D6D03316868F25A6C97DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Yand-YandUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72BA07B267DC888CBDF50CF2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YandTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAEC703D7F06AB1D0172A7A8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Yand-YandUITests/Pods-Yand-YandUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Yand-YandUITests/Pods-Yand-YandUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Yand-YandUITests/Pods-Yand-YandUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEADB39958469AA12D2135D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Yand-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		043076D325ED544A001E4055 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FF222726042A38009991FE /* DataModel.xcdatamodeld in Sources */,
+				044000AC25EE7A9C00AA7923 /* NetworkService.swift in Sources */,
+				04FF220E260424F9009991FE /* DataModel+CoreDataClass.swift in Sources */,
+				0440010E25FA55A400AA7923 /* ChartViewController.swift in Sources */,
+				043076DF25ED544A001E4055 /* ViewController.swift in Sources */,
+				043076DB25ED544A001E4055 /* AppDelegate.swift in Sources */,
+				0440010525F8EDE000AA7923 /* TableViewCell.swift in Sources */,
+				043076DD25ED544A001E4055 /* SceneDelegate.swift in Sources */,
+				04FF21112600E596009991FE /* FavoriteViewController.swift in Sources */,
+				044000A325EE778D00AA7923 /* Models.swift in Sources */,
+				04FF220F260424F9009991FE /* DataModel+CoreDataProperties.swift in Sources */,
+				04FF2249260B91D1009991FE /* TextInfoViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043076E925ED544B001E4055 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043076F225ED544B001E4055 /* YandTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043076F425ED544B001E4055 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043076FD25ED544B001E4055 /* YandUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		043076EF25ED544B001E4055 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 043076D625ED544A001E4055 /* Yand */;
+			targetProxy = 043076EE25ED544B001E4055 /* PBXContainerItemProxy */;
+		};
+		043076FA25ED544B001E4055 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 043076D625ED544A001E4055 /* Yand */;
+			targetProxy = 043076F925ED544B001E4055 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		043076E025ED544A001E4055 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				043076E125ED544A001E4055 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		043076E525ED544B001E4055 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				043076E625ED544B001E4055 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		043076FF25ED544B001E4055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0430770025ED544B001E4055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0430770225ED544B001E4055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87D5B86620C30B4C19E64A10 /* Pods-Yand.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U53229D9GV;
+				INFOPLIST_FILE = Yand/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VZ666..Yand;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0430770325ED544B001E4055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22E1D3B8A0F60E6BC50FBCAF /* Pods-Yand.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U53229D9GV;
+				INFOPLIST_FILE = Yand/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VZ666..Yand;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0430770525ED544B001E4055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFAFDF13AA0E19AF7DF2BB61 /* Pods-YandTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U53229D9GV;
+				INFOPLIST_FILE = YandTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VZ666..YandTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yand.app/Yand";
+			};
+			name = Debug;
+		};
+		0430770625ED544B001E4055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C37044C84EA9981468F48ECD /* Pods-YandTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U53229D9GV;
+				INFOPLIST_FILE = YandTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VZ666..YandTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yand.app/Yand";
+			};
+			name = Release;
+		};
+		0430770825ED544B001E4055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7317FEAB67CC4D9A55407D0 /* Pods-Yand-YandUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U53229D9GV;
+				INFOPLIST_FILE = YandUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VZ666..YandUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Yand;
+			};
+			name = Debug;
+		};
+		0430770925ED544B001E4055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BAAAF394DD7F208723ECF55 /* Pods-Yand-YandUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U53229D9GV;
+				INFOPLIST_FILE = YandUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VZ666..YandUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Yand;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		043076D225ED544A001E4055 /* Build configuration list for PBXProject "Yand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043076FF25ED544B001E4055 /* Debug */,
+				0430770025ED544B001E4055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0430770125ED544B001E4055 /* Build configuration list for PBXNativeTarget "Yand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0430770225ED544B001E4055 /* Debug */,
+				0430770325ED544B001E4055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0430770425ED544B001E4055 /* Build configuration list for PBXNativeTarget "YandTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0430770525ED544B001E4055 /* Debug */,
+				0430770625ED544B001E4055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0430770725ED544B001E4055 /* Build configuration list for PBXNativeTarget "YandUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0430770825ED544B001E4055 /* Debug */,
+				0430770925ED544B001E4055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04FF21F526041FC9009991FE /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04FF21F626041FC9009991FE /* DataModel.xcdatamodel */,
+			);
+			currentVersion = 04FF21F626041FC9009991FE /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 043076CF25ED544A001E4055 /* Project object */;
+}

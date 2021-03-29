@@ -1,0 +1,6 @@
+framework module Pods_YandTests {
+  umbrella header "Pods-YandTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
