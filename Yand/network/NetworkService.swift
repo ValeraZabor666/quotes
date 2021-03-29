@@ -13,7 +13,7 @@ class NetworkClass {
     //MARK: - get list of quotes(name, price etc)
     func getQuotesInfo(completion: @escaping (Result<[QuoteInfo], Error>) -> Void) {
         
-        let tickers = "AAPL,F,BAC,AMZN,YNDX,T,BABA,AAL,ADBE,BA,DIS,GE,NKE,SBUX,MLRYY,MCDMF,ATVI"
+        let tickers = "AAPL,F,BAC,AMZN,YNDX,T,BABA,AAL,ADBE,BA,DIS,GE,NKE,SBUX,MLRYY,ATVI"
         
         let headers = [
             "X-Mboum-Secret": "8HuhXW2tVWSHw4a5bZ0NBFz7A3fnpWkUt3T9wr8iiiGd9ITj0hmJUMXT6s5R"
