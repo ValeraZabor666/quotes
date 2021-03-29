@@ -45,7 +45,7 @@ class ViewController: UITableViewController, UISearchBarDelegate, FavoriteButton
     }()
     @IBOutlet weak var starButtonOutlet: UIBarButtonItem!
     
-    
+    //MARK: - viewDidLoad
     override func viewDidLoad() {
         super.viewDidLoad()
         searchBar.delegate = self
@@ -63,6 +63,7 @@ class ViewController: UITableViewController, UISearchBarDelegate, FavoriteButton
             case .success(let quotesData) : self?.listOfQuotes = quotesData
             }
         }
+        self.title = "All quotes"
     }
     
     

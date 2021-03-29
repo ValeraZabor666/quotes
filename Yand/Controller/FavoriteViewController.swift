@@ -36,12 +36,14 @@ class FavoriteViewController: UITableViewController, UISearchBarDelegate, Favori
         return rC
     }()
     
+    //MARK: - viewDidLoad
     override func viewDidLoad() {
         super.viewDidLoad()
         searchBar.delegate = self
         tableView.refreshControl = refreshControll
         
         getItems()
+        self.title = "Favorite quotes"
     }
     
     //MARK: - configure cells
